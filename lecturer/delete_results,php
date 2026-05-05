@@ -1,0 +1,21 @@
+<?php
+session_start();
+require_once '../includes/db.php';
+
+if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'teacher') {
+    header("Location: ../login.php");
+    exit();
+}
+
+$teacher_id = $_SESSION['user_id'];
+$id = $_GET['id'] ?? null;
+
+$stmt = $conn->prepare("DELETE FROM results WHERE id = ? AND teacher_id = ?");
+$stmt->bind_param("ii", $id, $teacher_id);
+
+if ($stmt->execute()) {
+    header("Location: view_results.php");
+    exit();
+} else {
+    echo "Failed to delete result.";
+}
