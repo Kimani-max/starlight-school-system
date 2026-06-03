@@ -38,22 +38,22 @@ This system provides a centralized platform for managing students, teachers, cou
 > Add screenshots of your system here (important for portfolio presentation)
 
 ### 🔐 SignUp Page
-![SignUp Page](images/school-signup.png)
+![SignUp Page](signup.png)
 
 ### 📊 Admin Dashboard
-![Dashboard](images/admin-dashboard.png)
+![Dashboard](admin-dashboard.png)
 
 ### 📊 Student Dashboard
-![Dashboard](images/student-dashboard.png)
+![Dashboard](student-dashboard.png)
 
 ### 📊 Lecturer Dashboard
-![Dashboard](images/lecturer-dashboard.png)
+![Dashboard](lecturer-dashboard.png)
 
 ### 👨‍🎓 Student Management
-![Student Management](images/students.png)
+![Student Management](students.png)
 
 ### 📝 Enrollment System
-![Enrollment](images/view_enrollments.png)
+![Enrollment](view_enrollments.png)
 
 ---
 
