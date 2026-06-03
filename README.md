@@ -37,8 +37,8 @@ This system provides a centralized platform for managing students, teachers, cou
 
 > Add screenshots of your system here (important for portfolio presentation)
 
-### 🔐 Login Page
-![Login Page](images/school-login.png)
+### 🔐 SignUp Page
+![SignUp Page](images/school-signup.png)
 
 ### 📊 Admin Dashboard
 ![Dashboard](images/admin-dashboard.png)
@@ -53,7 +53,7 @@ This system provides a centralized platform for managing students, teachers, cou
 ![Student Management](images/students.png)
 
 ### 📝 Enrollment System
-![Enrollment](images/enrollment.png)
+![Enrollment](images/view_enrollments.png)
 
 ---
 
